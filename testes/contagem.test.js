@@ -4,7 +4,7 @@ describe('Algoritmo de Contagem de Frequência', () => {
     // Teste 1: Contagem de números
     test('Deve contar a frequência correta de números', () => {
         const arr = [1, 2, 2, 3, 1, 1];
-        // Note que as chaves em JS são sempre strings
+        
         expect(contagem(arr)).toEqual({ '1': 3, '2': 2, '3': 1 }); 
     });
     
@@ -13,3 +13,6 @@ describe('Algoritmo de Contagem de Frequência', () => {
         expect(contagem([])).toEqual({});
     });
 });
+
+
+//testandoooo
